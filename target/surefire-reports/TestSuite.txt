@@ -1,0 +1,32 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 9.176 s <<< FAILURE! - in TestSuite
+test_add(org.api.test.ApiTestCases)  Time elapsed: 1.189 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> but was <401>.
+
+	at org.api.test.ApiTestCases.test_add(ApiTestCases.java:48)
+
+test_put(org.api.test.ApiTestCases)  Time elapsed: 0.807 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> but was <401>.
+
+	at org.api.test.ApiTestCases.test_put(ApiTestCases.java:65)
+
+test_get(org.api.test.ApiTestCases)  Time elapsed: 1.212 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> but was <401>.
+
+	at org.api.test.ApiTestCases.test_get(ApiTestCases.java:84)
+
+test_delete(org.api.test.ApiTestCases)  Time elapsed: 1.347 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <204> but was <404>.
+
+	at org.api.test.ApiTestCases.test_delete(ApiTestCases.java:99)
+
